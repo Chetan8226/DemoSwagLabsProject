@@ -1,0 +1,323 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 05 19:12:43 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>121 seconds (121879 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.clickCheckoutbtnTest()'><b>clickCheckoutbtnTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-1146859833" onClick='toggleBox("Output-1146859833", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1146859833" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1146859833">
+Varify After Click on Checkoutbtn URL = https://www.saucedemo.com/checkout-step-one.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.clickContinueShoppingbtnTest()'><b>clickContinueShoppingbtnTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-2102909877" onClick='toggleBox("Output-2102909877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2102909877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2102909877">
+Verify After Click on Con Shopping btn URL = https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.verifyTwitterLogoTest()'><b>verifyTwitterLogoTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-193598542" onClick='toggleBox("Output-193598542", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-193598542" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-193598542">
+Visibility of Twitter Logo = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Inventary_Page_2_Test.add6ProductsTest()'><b>add6ProductsTest</b><br>Test class: testCases.Inventary_Page_2_Test<br/>
+<a href="#Output-1373527802" onClick='toggleBox("Output-1373527802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1373527802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1373527802">
+Total Product Add To Cart = 6<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventary_Page_2_Test@7857fe2</td></tr>
+<tr>
+<td title='testCases.Inventary_Page_2_Test.verifylinkinedLogoTest()'><b>verifylinkinedLogoTest</b><br>Test class: testCases.Inventary_Page_2_Test<br/>
+<a href="#Output-1717491482" onClick='toggleBox("Output-1717491482", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1717491482" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1717491482">
+Visibility of Linkined Logo = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventary_Page_2_Test@7857fe2</td></tr>
+<tr>
+<td title='testCases.LoginPage_1_Test.verifyURLofApplicationTest()'><b>verifyURLofApplicationTest</b><br>Test class: testCases.LoginPage_1_Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPage_1_Test@6f15d60e</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.verifyCartDescriptionLableTest()'><b>verifyCartDescriptionLableTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-1476915117" onClick='toggleBox("Output-1476915117", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1476915117" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1476915117">
+Verify Cart Page Description Lable = Description<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.verifylinkinedLogoTest()'><b>verifylinkinedLogoTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-171277374" onClick='toggleBox("Output-171277374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-171277374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-171277374">
+Visibility of Linkined Logo = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.verifyURLofApplicationTest()'><b>verifyURLofApplicationTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-787205767" onClick='toggleBox("Output-787205767", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-787205767" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-787205767">
+Verify URL of Cart Page = https://www.saucedemo.com/cart.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Inventary_Page_2_Test.verifyPrivacyPolocyLabelTest()'><b>verifyPrivacyPolocyLabelTest</b><br>Test class: testCases.Inventary_Page_2_Test<br/>
+<a href="#Output-1050867502" onClick='toggleBox("Output-1050867502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1050867502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1050867502">
+Visibility of Privacy Policy Labels of Inventary Page = © 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventary_Page_2_Test@7857fe2</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.verifyTitleOfApplicationTest()'><b>verifyTitleOfApplicationTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-57986233" onClick='toggleBox("Output-57986233", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-57986233" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-57986233">
+Logo of Cart Page= Swag Labs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Inventary_Page_2_Test.verifyfacebookLogoTest()'><b>verifyfacebookLogoTest</b><br>Test class: testCases.Inventary_Page_2_Test<br/>
+<a href="#Output-617107045" onClick='toggleBox("Output-617107045", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-617107045" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-617107045">
+Visibility of Facebook Logo = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventary_Page_2_Test@7857fe2</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.verifyCartQTYLableTest()'><b>verifyCartQTYLableTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-227549952" onClick='toggleBox("Output-227549952", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-227549952" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-227549952">
+Verify Cart Page QTY Lable = QTY<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.verifyYourCartLableTest()'><b>verifyYourCartLableTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-1207093026" onClick='toggleBox("Output-1207093026", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1207093026" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1207093026">
+Verify Your Cart Lable= Your Cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Inventary_Page_2_Test.verifyProductLableTest()'><b>verifyProductLableTest</b><br>Test class: testCases.Inventary_Page_2_Test<br/>
+<a href="#Output-292158973" onClick='toggleBox("Output-292158973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-292158973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-292158973">
+Product Labels Of Inventary Page = Products<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventary_Page_2_Test@7857fe2</td></tr>
+<tr>
+<td title='testCases.Inventary_Page_2_Test.verifyTwitterLogoTest()'><b>verifyTwitterLogoTest</b><br>Test class: testCases.Inventary_Page_2_Test<br/>
+<a href="#Output-1621729085" onClick='toggleBox("Output-1621729085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1621729085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1621729085">
+Visibility of Twitter Logo = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventary_Page_2_Test@7857fe2</td></tr>
+<tr>
+<td title='testCases.Inventary_Page_2_Test.verifytitleofInventaryPageTest()'><b>verifytitleofInventaryPageTest</b><br>Test class: testCases.Inventary_Page_2_Test<br/>
+<a href="#Output-1555728654" onClick='toggleBox("Output-1555728654", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1555728654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1555728654">
+Logo Of Inventary Page = Swag Labs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventary_Page_2_Test@7857fe2</td></tr>
+<tr>
+<td title='testCases.LoginPage_1_Test.verifyTitleofApplicationTest()'><b>verifyTitleofApplicationTest</b><br>Test class: testCases.LoginPage_1_Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPage_1_Test@6f15d60e</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.verifyPrivacyPolocyFooterTest()'><b>verifyPrivacyPolocyFooterTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-1713520020" onClick='toggleBox("Output-1713520020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1713520020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1713520020">
+Visibility of Privacy Policy Footer of Your Cart Page = © 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.LoginPage_1_Test.loginToApplicationTest()'><b>loginToApplicationTest</b><br>Test class: testCases.LoginPage_1_Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPage_1_Test@6f15d60e</td></tr>
+<tr>
+<td title='testCases.Open_To_Cart_3_Test.verifyfacebookLogoTest()'><b>verifyfacebookLogoTest</b><br>Test class: testCases.Open_To_Cart_3_Test<br/>
+<a href="#Output-417167207" onClick='toggleBox("Output-417167207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-417167207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-417167207">
+Visibility of Facebook Logo = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Open_To_Cart_3_Test@7d900ecf</td></tr>
+<tr>
+<td title='testCases.Inventary_Page_2_Test.remove2Products()'><b>remove2Products</b><br>Test class: testCases.Inventary_Page_2_Test<br/>
+<a href="#Output-192449986" onClick='toggleBox("Output-192449986", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-192449986" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-192449986">
+Count of Product After Removing = 4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventary_Page_2_Test@7857fe2</td></tr>
+</table><p>
+</body>
+</html>
