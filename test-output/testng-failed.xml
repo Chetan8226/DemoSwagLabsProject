@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.LoginPage_1_Test">
+      <class name="testCases.Inventary_Page_2_Test">
         <methods>
+          <include name="verifylinkinedLogoTest"/>
+          <include name="verifyTwitterLogoTest"/>
+          <include name="verifyfacebookLogoTest"/>
           <include name="setup"/>
-          <include name="loginToApplicationTest"/>
+          <include name="verifytitleofInventaryPageTest"/>
+          <include name="verifyPrivacyPolocyLabelTest"/>
+          <include name="verifyProductLableTest"/>
+          <include name="remove2Products"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- testCases.LoginPage_1_Test -->
+      </class> <!-- testCases.Inventary_Page_2_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
