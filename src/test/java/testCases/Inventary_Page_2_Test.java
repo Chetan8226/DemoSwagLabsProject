@@ -44,14 +44,6 @@ public class Inventary_Page_2_Test extends TestBase
 		Assert.assertEquals(ExpLable, ActLable);
 		Reporter.log("Product Labels Of Inventary Page = " + ActLable);
 	}
-	/*@Test
-	public void verifyPrivacyPolocyLabelTest()
-	{
-		String ExpLable="© 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy";
-		String ActLable=invent.verifyPrivacyPolocyLabel();
-		Assert.assertEquals(ExpLable, ActLable);
-		Reporter.log("Visibility of Privacy Policy Labels of Inventary Page = " + ActLable);
-	}*/
 	@Test(groups = "Retesting")
 	public void verifyTwitterLogoTest()
 	{
