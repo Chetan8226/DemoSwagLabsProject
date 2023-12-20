@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite Complete">
+<suite name="Suite_All">
   <test thread-count="5" name="Test">
     <classes>
       <class name="testCases.Cart_3_Test"/>
@@ -9,6 +9,7 @@
       <class name="testCases.LoginPage_1_Test"/>
       <class name="testCases.Checkout_Page_2_Test_5"/>
       <class name="testCases.Complete_Page_6_Test"/>
+      <class name="testCases.VerifyMultipleCredentialsTest"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Suite Complete -->
+</suite> <!-- Suite_All -->

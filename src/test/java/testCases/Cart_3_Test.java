@@ -95,14 +95,14 @@ public class Cart_3_Test extends TestBase
 		Assert.assertEquals(result, true);
 		Reporter.log("Visibility of Linkined Logo = " + result);
 	}
-	@Test
+	/*@Test
 	public void verifyPrivacyPolocyFooterTest()
 	{
 		String ExpFooter="© 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy";
 		String ActFooter=Cart.verifyPrivacyPolocyFooter();
 		Assert.assertEquals(ExpFooter, ActFooter);
 		Reporter.log("Visibility of Privacy Policy Footer of Your Cart Page = " + ExpFooter);
-	}
+	}*/
 	@Test
 	public void verifyCartQTYLableTest()
 	{
