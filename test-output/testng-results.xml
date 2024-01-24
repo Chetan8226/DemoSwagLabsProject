@@ -11,81 +11,81 @@
       <![CDATA[Verify After Login Inventary Page URL = https://www.saucedemo.com/inventory.html]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-18T23:48:42 IST" name="Default suite" finished-at="2024-01-18T23:49:02 IST" duration-ms="20115">
+  <suite started-at="2024-01-23T23:04:36 IST" name="Default suite" finished-at="2024-01-23T23:04:55 IST" duration-ms="19093">
     <groups>
       <group name="Sanity">
-        <method signature="LoginPage_1_Test.verifyTitleofApplicationTest()[pri:1, instance:testCases.LoginPage_1_Test@6d026701]" name="verifyTitleofApplicationTest" class="testCases.LoginPage_1_Test"/>
-        <method signature="LoginPage_1_Test.verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@6d026701]" name="verifyURLofApplicationTest" class="testCases.LoginPage_1_Test"/>
+        <method signature="LoginPage_1_Test.verifyTitleofApplicationTest()[pri:1, instance:testCases.LoginPage_1_Test@611889f4]" name="verifyTitleofApplicationTest" class="testCases.LoginPage_1_Test"/>
+        <method signature="LoginPage_1_Test.verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@611889f4]" name="verifyURLofApplicationTest" class="testCases.LoginPage_1_Test"/>
       </group> <!-- Sanity -->
       <group name="Retesting">
-        <method signature="LoginPage_1_Test.verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@6d026701]" name="verifyURLofApplicationTest" class="testCases.LoginPage_1_Test"/>
+        <method signature="LoginPage_1_Test.verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@611889f4]" name="verifyURLofApplicationTest" class="testCases.LoginPage_1_Test"/>
       </group> <!-- Retesting -->
       <group name="Regression">
-        <method signature="LoginPage_1_Test.loginToApplicationTest()[pri:3, instance:testCases.LoginPage_1_Test@6d026701]" name="loginToApplicationTest" class="testCases.LoginPage_1_Test"/>
+        <method signature="LoginPage_1_Test.loginToApplicationTest()[pri:3, instance:testCases.LoginPage_1_Test@611889f4]" name="loginToApplicationTest" class="testCases.LoginPage_1_Test"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-01-18T23:48:42 IST" name="Default test" finished-at="2024-01-18T23:49:02 IST" duration-ms="20115">
+    <test started-at="2024-01-23T23:04:36 IST" name="Default test" finished-at="2024-01-23T23:04:55 IST" duration-ms="19093">
       <class name="testCases.LoginPage_1_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@6d026701]" started-at="2024-01-18T23:48:42 IST" name="setup" finished-at="2024-01-18T23:48:51 IST" duration-ms="8334" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:36 IST" name="setup" finished-at="2024-01-23T23:04:43 IST" duration-ms="6827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitleofApplicationTest()[pri:1, instance:testCases.LoginPage_1_Test@6d026701]" started-at="2024-01-18T23:48:51 IST" name="verifyTitleofApplicationTest" finished-at="2024-01-18T23:48:51 IST" duration-ms="934" status="PASS">
+        <test-method signature="verifyTitleofApplicationTest()[pri:1, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:43 IST" name="verifyTitleofApplicationTest" finished-at="2024-01-23T23:04:44 IST" duration-ms="960" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Verify After Login Title of Application = Swag Labs]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyTitleofApplicationTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@6d026701]" started-at="2024-01-18T23:48:51 IST" name="closeBrowser" finished-at="2024-01-18T23:48:52 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:44 IST" name="closeBrowser" finished-at="2024-01-23T23:04:44 IST" duration-ms="123" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTitleofApplicationTest status=SUCCESS method=LoginPage_1_Test.verifyTitleofApplicationTest()[pri:1, instance:testCases.LoginPage_1_Test@6d026701] output=Verify After Login Title of Application = Swag Labs]]]>
+                <![CDATA[[TestResult name=verifyTitleofApplicationTest status=SUCCESS method=LoginPage_1_Test.verifyTitleofApplicationTest()[pri:1, instance:testCases.LoginPage_1_Test@611889f4] output=Verify After Login Title of Application = Swag Labs]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@6d026701]" started-at="2024-01-18T23:48:52 IST" name="setup" finished-at="2024-01-18T23:48:56 IST" duration-ms="4743" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:44 IST" name="setup" finished-at="2024-01-23T23:04:49 IST" duration-ms="4984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@6d026701]" started-at="2024-01-18T23:48:56 IST" name="verifyURLofApplicationTest" finished-at="2024-01-18T23:48:56 IST" duration-ms="32" status="PASS">
+        <test-method signature="verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:49 IST" name="verifyURLofApplicationTest" finished-at="2024-01-23T23:04:49 IST" duration-ms="51" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Verify Login URL of Application = https://www.saucedemo.com/]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyURLofApplicationTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@6d026701]" started-at="2024-01-18T23:48:56 IST" name="closeBrowser" finished-at="2024-01-18T23:48:57 IST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:49 IST" name="closeBrowser" finished-at="2024-01-23T23:04:49 IST" duration-ms="80" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyURLofApplicationTest status=SUCCESS method=LoginPage_1_Test.verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@6d026701] output=Verify Login URL of Application = https://www.saucedemo.com/]]]>
+                <![CDATA[[TestResult name=verifyURLofApplicationTest status=SUCCESS method=LoginPage_1_Test.verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@611889f4] output=Verify Login URL of Application = https://www.saucedemo.com/]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@6d026701]" started-at="2024-01-18T23:48:57 IST" name="setup" finished-at="2024-01-18T23:49:01 IST" duration-ms="4729" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:49 IST" name="setup" finished-at="2024-01-23T23:04:54 IST" duration-ms="4869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginToApplicationTest()[pri:3, instance:testCases.LoginPage_1_Test@6d026701]" started-at="2024-01-18T23:49:01 IST" name="loginToApplicationTest" finished-at="2024-01-18T23:49:02 IST" duration-ms="423" status="PASS">
+        <test-method signature="loginToApplicationTest()[pri:3, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:54 IST" name="loginToApplicationTest" finished-at="2024-01-23T23:04:54 IST" duration-ms="459" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Verify After Login Inventary Page URL = https://www.saucedemo.com/inventory.html]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginToApplicationTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@6d026701]" started-at="2024-01-18T23:49:02 IST" name="closeBrowser" finished-at="2024-01-18T23:49:02 IST" duration-ms="546" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:54 IST" name="closeBrowser" finished-at="2024-01-23T23:04:55 IST" duration-ms="672" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToApplicationTest status=SUCCESS method=LoginPage_1_Test.loginToApplicationTest()[pri:3, instance:testCases.LoginPage_1_Test@6d026701] output=Verify After Login Inventary Page URL = https://www.saucedemo.com/inventory.html]]]>
+                <![CDATA[[TestResult name=loginToApplicationTest status=SUCCESS method=LoginPage_1_Test.loginToApplicationTest()[pri:3, instance:testCases.LoginPage_1_Test@611889f4] output=Verify After Login Inventary Page URL = https://www.saucedemo.com/inventory.html]]]>
               </value>
             </param>
           </params>
