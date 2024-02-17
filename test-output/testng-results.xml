@@ -11,7 +11,7 @@
       <![CDATA[Verify After Login Inventary Page URL = https://www.saucedemo.com/inventory.html]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-23T23:04:36 IST" name="Default suite" finished-at="2024-01-23T23:04:55 IST" duration-ms="19093">
+  <suite started-at="2024-02-02T20:33:19 IST" name="Default suite" finished-at="2024-02-02T20:33:41 IST" duration-ms="22076">
     <groups>
       <group name="Sanity">
         <method signature="LoginPage_1_Test.verifyTitleofApplicationTest()[pri:1, instance:testCases.LoginPage_1_Test@611889f4]" name="verifyTitleofApplicationTest" class="testCases.LoginPage_1_Test"/>
@@ -24,20 +24,20 @@
         <method signature="LoginPage_1_Test.loginToApplicationTest()[pri:3, instance:testCases.LoginPage_1_Test@611889f4]" name="loginToApplicationTest" class="testCases.LoginPage_1_Test"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-01-23T23:04:36 IST" name="Default test" finished-at="2024-01-23T23:04:55 IST" duration-ms="19093">
+    <test started-at="2024-02-02T20:33:19 IST" name="Default test" finished-at="2024-02-02T20:33:41 IST" duration-ms="22076">
       <class name="testCases.LoginPage_1_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:36 IST" name="setup" finished-at="2024-01-23T23:04:43 IST" duration-ms="6827" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-02-02T20:33:19 IST" name="setup" finished-at="2024-02-02T20:33:27 IST" duration-ms="8152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitleofApplicationTest()[pri:1, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:43 IST" name="verifyTitleofApplicationTest" finished-at="2024-01-23T23:04:44 IST" duration-ms="960" status="PASS">
+        <test-method signature="verifyTitleofApplicationTest()[pri:1, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-02-02T20:33:27 IST" name="verifyTitleofApplicationTest" finished-at="2024-02-02T20:33:28 IST" duration-ms="862" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Verify After Login Title of Application = Swag Labs]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyTitleofApplicationTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:44 IST" name="closeBrowser" finished-at="2024-01-23T23:04:44 IST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-02-02T20:33:28 IST" name="closeBrowser" finished-at="2024-02-02T20:33:28 IST" duration-ms="179" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,18 +48,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:44 IST" name="setup" finished-at="2024-01-23T23:04:49 IST" duration-ms="4984" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-02-02T20:33:28 IST" name="setup" finished-at="2024-02-02T20:33:33 IST" duration-ms="5458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:49 IST" name="verifyURLofApplicationTest" finished-at="2024-01-23T23:04:49 IST" duration-ms="51" status="PASS">
+        <test-method signature="verifyURLofApplicationTest()[pri:2, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-02-02T20:33:33 IST" name="verifyURLofApplicationTest" finished-at="2024-02-02T20:33:33 IST" duration-ms="56" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Verify Login URL of Application = https://www.saucedemo.com/]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyURLofApplicationTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:49 IST" name="closeBrowser" finished-at="2024-01-23T23:04:49 IST" duration-ms="80" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-02-02T20:33:33 IST" name="closeBrowser" finished-at="2024-02-02T20:33:34 IST" duration-ms="194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,18 +70,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:49 IST" name="setup" finished-at="2024-01-23T23:04:54 IST" duration-ms="4869" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-02-02T20:33:34 IST" name="setup" finished-at="2024-02-02T20:33:39 IST" duration-ms="5333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginToApplicationTest()[pri:3, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:54 IST" name="loginToApplicationTest" finished-at="2024-01-23T23:04:54 IST" duration-ms="459" status="PASS">
+        <test-method signature="loginToApplicationTest()[pri:3, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-02-02T20:33:39 IST" name="loginToApplicationTest" finished-at="2024-02-02T20:33:40 IST" duration-ms="688" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Verify After Login Inventary Page URL = https://www.saucedemo.com/inventory.html]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginToApplicationTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-01-23T23:04:54 IST" name="closeBrowser" finished-at="2024-01-23T23:04:55 IST" duration-ms="672" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_1_Test@611889f4]" started-at="2024-02-02T20:33:40 IST" name="closeBrowser" finished-at="2024-02-02T20:33:41 IST" duration-ms="1065" status="PASS">
           <params>
             <param index="0">
               <value>
