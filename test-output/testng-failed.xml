@@ -3,17 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.Complete_Page_6_Test">
+      <class name="testCases.Inventary_Page_2_Test">
         <methods>
-          <include name="verifyCheckoutCompleteLableTest"/>
+          <include name="verifylinkinedLogoTest"/>
+          <include name="add6ProductsTest"/>
+          <include name="verifyTwitterLogoTest"/>
+          <include name="verifyfacebookLogoTest"/>
           <include name="setup"/>
-          <include name="verifyPonyExpressIMGTest"/>
+          <include name="verifytitleofInventaryPageTest"/>
+          <include name="verifyProductLableTest"/>
+          <include name="remove2Products"/>
           <include name="closeBrowser"/>
-          <include name="clickOnBackHomeBtnTest"/>
-          <include name="verifyThankYouForHeaderTest"/>
-          <include name="verifyCompleteTextTest"/>
         </methods>
-      </class> <!-- testCases.Complete_Page_6_Test -->
+      </class> <!-- testCases.Inventary_Page_2_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
